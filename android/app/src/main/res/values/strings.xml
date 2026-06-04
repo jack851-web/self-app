@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自律</string>
+    <string name="accessibility_service_description">用于拦截 Home、返回键等系统按键，确保锁屏期间无法退出</string>
+    <string name="device_admin_description">设备管理员权限用于防止在自律模式下被强制停止或卸载，确保守护功能的正常运行</string>
+</resources>

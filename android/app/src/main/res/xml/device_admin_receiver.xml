@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device-admin xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-policies>
+        <!-- LockTask模式：防止用户切换应用 -->
+        <lock-task />
+        <!-- 防止应用被卸载 -->
+        <force-lock />
+        <!-- 清除数据保护 -->
+        <wipe-data />
+        <!-- 禁用摄像头等外设（可选） -->
+        <disable-camera />
+        <disable-keyguard-features />
+    </uses-policies>
+</device-admin>
